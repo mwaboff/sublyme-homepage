@@ -3,18 +3,20 @@
 * {
     margin: 0;
     padding: 0;
+}
 
-/*    border-style: solid;
-    border-width: 1px;
-    border-color: red;
-*/
+@font-face {
+    font-family: 'WorkSans';
+    src: url('fonts/WorkSans-Regular.woff') format('woff2'),
+         url('fonts/WorkSans-Regular.woff2') format('woff');
 }
 
 body {
     background-color: #CCC;
     background-image: url(https://i.redd.it/jkwvasp0pgz31.jpg);
 
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'WorkSans', sans-serif;
+
 }
 
 main {
