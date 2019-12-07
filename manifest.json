@@ -1,0 +1,10 @@
+{
+    "name": "Sublyme Homepage",
+    "version": "0.1",
+    "description": "A beautiful widget based homepage replacement.",
+    "manifest_version": 2,
+    
+    "chrome_url_overrides" : {
+        "newtab": "src/html/sublyme-homepage.html"
+    }
+}
