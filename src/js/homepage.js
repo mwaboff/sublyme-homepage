@@ -11,12 +11,8 @@ import {WelcomeWidget} from './widget-welcome/main.js';
     welcome_widget.startWidget();
   }
 
-
   var findWidgets = function() {
   }
-
-
-
 
   initialize();
 })();

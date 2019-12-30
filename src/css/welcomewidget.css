@@ -1,28 +1,22 @@
 #widget_welcome{
     height: 100%;
     width: 100%;
-
     grid-column: middle;
     grid-row: middle;
-
     display: flex;
-
     user-select: none;
 }
 
 #widget_welcome .content_container {
     align-self: center;
     margin: 0 auto;
-
     text-align: center;
-
     color: #EFEFEF;
 }
 
 #widget_welcome #widget_welcome_timer {
     font-size: 9vw;
     text-shadow: 2px 2px 10px #333333;
-
 }
 
 #widget_welcome #widget_welcome_text {

@@ -12,7 +12,6 @@ export class Welcomer extends Widget {
     this.temporal_message_chance = 5;
     this.current_hour = parseInt(Timer.getHour());
     this.welcome_text = this.chooseMessage();
-
   }
 
   static createWelcomeWidget() {
